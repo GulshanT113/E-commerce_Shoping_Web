@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useCart } from "../context/CartContext";
 import { useNavigate } from "react-router-dom";
 import Searchbar from "./Searchbar";
-import Sidebar from "./Sidebar";
+import Sidebar from "./Sidebar"
 
 const ProductList = () => {
   const [products, setProducts] = useState([]);
